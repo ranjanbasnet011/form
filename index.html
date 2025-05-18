@@ -1,0 +1,92 @@
+<!--Document decleration-->
+<!DOCTYPE html>
+<!--root element-->
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+    <link href="./styles.css" rel="stylesheet"/>
+    <body>
+        <section class="section" >
+            <strong>Select mode</strong >
+            <select>
+                <option value="1">Single Certificate(using form field)</option>
+                <option value="2">Double Certificate</option>
+            </select>
+        </section>
+       <form id="form" onsubmit="handleFormSubmit">
+         <main>
+          
+             <section name="certificate" class="section">
+                <strong>Certificate Type</strong>
+                <select>
+                    <option value="1">Project Completetion Award</option>
+                    <option value="2">Best Project Award</option>
+                </select>
+            </section>
+             <section class="section">
+                <strong>Receipt Name</strong>
+                <input  placeholder="eg Jhoe Doe"/>
+            </section>
+               <section class="section">
+                <strong>Batch (eg.2021 AD)</strong>
+                <input  placeholder="eg Jhoe Doe"/>
+            </section>
+            
+               <section class="section">
+                <strong>Program (eg. BE Computer)</strong>
+                <input  placeholder="eg Jhoe Doe"/>
+            </section>
+
+            <section class="section">
+                <strong>Academic Year(e.g 2024)</strong>
+                <input  placeholder="eg. 2024"/>
+            </section>
+               <section class="section">
+                <strong>Project Title</strong>
+                <input  placeholder="eg Advanced Web Application"/>
+            </section>
+             <section class="section">
+                <strong>Course Instructor Name</strong>
+                <input  placeholder="eg David Maylan"/>
+            </section>
+             <section class="section">
+                <strong>Head of Department Name</strong>
+                <input  placeholder="eg Prof. Emily White"/>
+            </section>
+            <section class="section">
+                <strong>HOOD Designation(Optional)</strong>
+                <input  placeholder="eg. Head of Computer Science"/>
+            </section>
+            <section class="section">
+                <strong>Principle Name</strong>
+                <input  placeholder="eg. Walter White"/>
+            </section>
+            <section class="section">
+                <strong>Principle Designation(Optional)</strong>
+                <input  placeholder="eg. Head of Computer Science"/>
+            </section>
+            <section class="section">
+                <strong>College Name</strong>
+                <input  placeholder="eg. Head of Computer Science"/>
+            </section>
+            <section class="section">
+                <strong>Affiliation</strong>
+                <input  placeholder="eg. Tribuwan University"/>
+            </section>
+            <section class="section">
+                <strong>College Address</strong>
+                <input  placeholder="eg. 123 Tech park "/>
+            </section>
+            <section class="section">
+                <strong>Contact Number</strong>
+                <input  placeholder="eg.9677766666" type="number"/>
+            </section>
+          
+        
+        </main>
+            <button id="submit" type="submit">Submit</button>
+       </form>
+       
+    </body>
+</html>         

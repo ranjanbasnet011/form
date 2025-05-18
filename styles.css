@@ -1,0 +1,27 @@
+body{
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    
+    margin-top: 2rem;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 4rem;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+#submit{
+    margin-top: 2rem;
+   width: 5rem;
+   background:linear-gradient(45deg,blue,purple);
+ color: aliceblue;
+ border: none;
+ padding: 0.4rem 0rem 0.4rem 0rem;
+ border-radius: 0.2rem;
+}
